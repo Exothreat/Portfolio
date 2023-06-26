@@ -1,0 +1,17 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+.body {
+  background-color: #06051d;
+  color: white;
+  margin: 0 auto;
+  max-width: 1200px;
+  font-family: "Lato", sans-serif;
+}

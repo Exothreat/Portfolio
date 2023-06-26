@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exothreat.online</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="images/Exothreat-logo.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/container.css" />
+    <link rel="stylesheet" href="style/gallery.css" />
+    <link rel="stylesheet" href="style/navigation.css" />
+    <link rel="stylesheet" href="style/desktopNavigation.css" />
+    <link rel="stylesheet" href="style/lightMode.css" />
+    <script defer src="script/hide-navigation.js"></script>
+    <script defer src="script/light-theme.js"></script>
+  </head>
+  <body class="body">
+    <nav class="navigation">
+      <a class="navigation__link" href="https://exothreat.online">
+        <h1 class="navigation__logo">
+          <span class="navigation__logo--exo" id="exo">EXO</span>threat
+        </h1>
+      </a>
+      <ul class="navigation__list" id="js-navigation">
+        <li class="navigation__listItem">
+          <a class="navigation__link" href="#projects">Projects</a>
+        </li>
+        <li class="navigation__listItem">
+          <a class="navigation__link" href="#contact">Contact</a>
+        </li>
+        <li class="navigation__listItem">
+          <a class="navigation__link" href="#about">About</a>
+        </li>
+        <li class="navigation__listItem">
+          <a
+            class="navigation__link"
+            href="https://www.github.com/Exothreat"
+          >
+            GitHub
+          </a>
+        </li>
+      </ul>
+      <a class="navigation__link icon">
+        <img
+          class="navigation__lightMode"
+          id="js-light-mode"
+          src="images/sun-icon.png"
+        />
+      </a>
+      <a class="navigation__link icon">
+        <img
+          class="navigation__menuButton"
+          id="js-menu-button"
+          src="images/menu-icon.png"
+        />
+      </a>
+    </nav>
+    <main class="main">
+      <div class="container">
+        <ul class="gallery">
+          <li class="gallery__item">
+            <img class="gallery__image" src="images/Nr 1.jpg">
+          </li>
+          <li class="gallery__image">
+            <img class="gallery__image" src="images/Nr 2.jpg">
+          </li>
+          <li class="gallery__item">
+            <img class="gallery__image" src="images/Nr 3.jpg">
+          </li>
+        </ul>
+      </div>
+    </main>
+    <div class="overlay__hide">
+      <div class="desktopNavigation">
+        <ul class="desktopNavigation__list">
+          <li class="desktopNavigation__listItem">
+            <a class="desktopNavigation__link" id="js-menu-exit">X</a>
+          </li>
+          <li class="desktopNavigation__listItem">
+            <a class="desktopNavigation__link" href="#projects">Projects</a>
+          </li>
+          <li class="desktopNavigation__listItem">
+            <a class="desktopNavigation__link" href="#contact">Contact</a>
+          </li>
+          <li class="desktopNavigation__listItem">
+            <a class="desktopNavigation__link" href="#about">About</a>
+          </li>
+          <li class="desktopNavigation__listItem">
+            <a
+              class="desktopNavigation__link"
+              href="https://www.github.com/Exothreat"
+            >
+              GitHub
+            </a>
+      </div>
+    </div>
+    <footer></footer>
+  </body>
+</html>

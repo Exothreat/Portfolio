@@ -1,0 +1,58 @@
+.overlay__hide {
+  display: none;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: #06051dd7;
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (min-width: 768px) {
+  .overlay {
+    display: none;
+  }
+}
+
+.desktopNavigation {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  background-color: #27265793;
+  z-index: 100;
+  backdrop-filter: blur(5px);
+}
+
+.desktopNavigation__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.desktopNavigation__listItem {
+  text-align: center;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.desktopNavigation__link {
+  text-decoration: none;
+  color: white;
+  display: block;
+  width: 100%;
+  padding: 25px;
+}
+
+.desktopNavigation__link:hover {
+  background-color: rgb(26, 15, 70);
+  color: #ffa03d;
+}
+
+.desktopNavigation__link:active {
+  background-color: rgb(20, 12, 54);
+  color: #ffa03d;
+}

@@ -1,0 +1,16 @@
+.lightMode {
+  background-color: blanchedalmond;
+  color: black;
+}
+
+.lightMode a {
+  color: black;
+}
+
+.exo--light {
+  color: #ff3512;
+}
+
+.overlay__light {
+  background-color: rgba(201, 181, 152, 0.5);
+}
