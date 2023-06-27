@@ -9,9 +9,13 @@ html {
 }
 
 .body {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
   background-color: #06051d;
+}
+
+.wrapper {
   color: white;
   margin: 0 auto;
   max-width: 1200px;
-  font-family: "Lato", sans-serif;
 }
